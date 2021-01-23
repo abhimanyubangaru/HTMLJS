@@ -2,13 +2,22 @@
 <html>
 
   <head></head>
-  <h1> This was the linking javascript to html exercise </h1>
-  YUH
+  <script src="practice2script.js"></script>
+  <h1> This is my practice quiz </h1>
 
   <body>
     It should print out hello world in the console
+    <form name="quiz" id="quiz">
+      <ul>
+        What is my name?
+        <p><input type="radio" name="question1" value="Abheer"> A. Abheer</p>
+        <p><input type="radio" name="question1" value="Abhi"> B. Abhi</p>
+      </ul>
+    </form>
+
+    <input type="button" name="" value="Check answer" id="button" onclick="check()">
+    <p id="result"></p>
   </body>
-  <h1>Hello</h1>
-  <script src="practice2script.js"></script>
+
 
 </html>
