@@ -12,4 +12,5 @@ function check(){
   result.textContent = "You got " + correct + " right!";
   quiz.style.display = "none";
   console.log("working");
+  console.log("this is my branch");
 }
