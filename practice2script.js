@@ -1,10 +1,3 @@
-var a = "Hello";
-var b = "world";
-console.log(a+ " " + b);
-console.log(a,b);
-console.log(typeof a, typeof b);
-
-
 function check(){
   var correct = 0;
   var q1 = document.quiz.question1.value;
