@@ -3,20 +3,22 @@
 
   <head></head>
   <script src="practice2script.js"></script>
-  <h1> This is my practice quiz </h1>
+  <form name="quiz" id="quiz">
+    <h1> This is my practice quiz </h1>
 
-  <body>
-    It should print out hello world in the console
-    <form name="quiz" id="quiz">
+    <body>
+      It should print out hello world in the console
+
       <ul>
         What is my name?
         <p><input type="radio" name="question1" value="Abheer"> A. Abheer</p>
         <p><input type="radio" name="question1" value="Abhi"> B. Abhi</p>
       </ul>
-    </form>
+      <input type="button" name="" value="Check answer" id="button" onclick="check()">
+  </form>
 
-    <input type="button" name="" value="Check answer" id="button" onclick="check()">
-    <p id="result"></p>
+
+  <p id="result"></p>
   </body>
 
 
