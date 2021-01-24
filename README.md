@@ -1,2 +1,2 @@
 # HTMLJS
-Practice for bangaru and albrecht
+Practice for bangaru hernandez and albrecht
