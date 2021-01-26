@@ -6,7 +6,7 @@ function check(){
   var result = document.getElementById("result");
   var quiz = document.getElementById("quiz");
   if(q1 == "Abhi"){
-    correct++;
+    correct++; 
   }
   result.textContent = "You got " + correct + " right!";
   quiz.style.display = "none";
